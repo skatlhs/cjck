@@ -320,3 +320,11 @@ a.leftnavitem:hover {
 -webkit-::placeholder{
     color:white;
 }
+
+.navlogo {
+    width:80%;
+}
+
+.olog {
+    width:50%;
+}
