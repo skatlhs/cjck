@@ -275,20 +275,20 @@ a.leftnavitem:hover {
 }
 
 .mailoverlay {
-        background: linear-gradient(#18a7ff, rgba(58, 255, 134, 0.72));
+    background: linear-gradient(#18a7ff, rgba(58, 255, 134, 0.72));
 }
 
 .leade input {
-    width:70%;
-    padding-top:10px;
-    padding-bottom:10px;
-    margin-top:5px;
-    padding-left:20px;
-    background:rgba(255, 255, 255, 0.29);
-    border:none;
-    color:white;
-    outline:none;
-    letter-spacing:2px;
+    width: 70%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 5px;
+    padding-left: 20px;
+    background: rgba(255, 255, 255, 0.29);
+    border: none;
+    color: white;
+    outline: none;
+    letter-spacing: 2px;
     transition: all .3s ease;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
@@ -296,50 +296,49 @@ a.leftnavitem:hover {
 }
 
 .leade input:focus {
-    background:rgba(255, 255, 255, 0.69);
-    border:none;
-    color:#222222;
+    background: rgba(255, 255, 255, 0.69);
+    border: none;
+    color: #222222;
     transition: all .3s ease;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
     -o-transition: all .3s ease;
 }
 
-.leade .btn{
-    background:rgb(255, 255, 255);
-    color:rgb(61, 142, 185);
-    border:none;
-    position:relative;
-    top:-25px;
+.leade .btn {
+    background: rgb(255, 255, 255);
+    color: rgb(61, 142, 185);
+    border: none;
+    position: relative;
+    top: -25px;
 }
 
 ::placeholder {
-    color:white;
+    color: white;
 }
 
--webkit-::placeholder{
-    color:white;
+-webkit-::placeholder {
+    color: white;
 }
 
 .navlogo {
-    width:80%;
+    width: 80%;
 }
 
 .olog {
-    width:90%;
+    width: 90%;
 }
 
 .navclose {
-    display:block !important;
-    width:40px;
-    height:40px;
-    font-size:32pt !important;
+    display: block !important;
+    width: 40px;
+    height: 40px;
+    font-size: 32pt !important;
     transition: all .3s ease;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
     -o-transition: all .3s ease;
 }
-
 
 .navclose:hover {
     transition: all .3s ease;
@@ -349,8 +348,8 @@ a.leftnavitem:hover {
 }
 
 .separator3 {
-    border-top:1px solid #018FD7;
-    border-bottom:2px solid #c4c4c4;
-    height:0px;
-    width:100%:
+    border-top: 1px solid #018FD7;
+    border-bottom: 2px solid #c4c4c4;
+    height: 0px;
+    width: 100%:
 }
