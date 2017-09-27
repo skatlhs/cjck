@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 
@@ -28,20 +27,61 @@
     <link rel="stylesheet" href="assets/theme/css/style.css">
     <link rel="stylesheet" href="assets/overti/css/mbr-additional.css" type="text/css">
     <link rel="stylesheet" href="new.css" type="text/css">
-    <link rel="stylesheet" href="modal.css" type="text/css"> 
-<script src="//widget.manychat.com/585028841671073.js" async="async">
-</script>   
+    <link rel="stylesheet" href="modal.css" type="text/css">
+    <script src="//widget.manychat.com/585028841671073.js" async="async">
+    </script>
     <style>
-        a.bgr  {
-            padding:20px !important;
-            font-size:16pt;
+        a.bgr {
+            padding: 20px !important;
+            font-size: 16pt;
         }
     </style>
-    
-    
-    </head>
+    <script>
+        ;
+        (function () {
+            function id(v) {
+                return document.getElementById(v);
+            }
+
+            function loadbar() {
+                var ovrl = id("ovrly")
+                    , prog = id("progress")
+                    , stat = id("progstat")
+                    , img = document.images
+                    , c = 0;
+                tot = img.length;
+
+                function imgLoaded() {
+                    c += 1;
+                    var perc = ((100 / tot * c) << 0) + "%";
+                    prog.style.width = perc;
+                    stat.innerHTML = "Loading Your Coach Jack Football Experience" + " " +  perc;
+                    if (c === tot) return doneLoading();
+                }
+
+                function doneLoading() {
+                    ovrl.style.opacity = 0;
+                    setTimeout(function () {
+                        ovrl.style.display = "none";
+                    }, 1200);
+                }
+                for (var i = 0; i < tot; i++) {
+                    var tImg = new Image();
+                    tImg.onload = imgLoaded;
+                    tImg.onerror = imgLoaded;
+                    tImg.src = img[i].src;
+                }
+            }
+            document.addEventListener('DOMContentLoaded', loadbar, false);
+        }());
+    </script>
+</head>
 
 <body>
+    <div id="ovrly">
+        <div id="progstat"></div>
+        <div id="progress"></div>
+    </div>
     <section id="ext_menu-3" data-rv-view="55">
         <div class="cmenu">
             <button type="button" class="menubutton pull-right" data-toggle="modal" data-target="#myModal2"> <i class="fa fa-bars" aria-hidden="true"></i> </button>
@@ -54,9 +94,7 @@
                     <button type="button" class="close navclose" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                     <h4 class="modal-title" id="myModalLabel2"><img class="navlogo" src="assets/images/navlogo3.png"></h4> </div>
                 <div class="modal-body"> <a class="leftnavitem" href="#msg-box8-9" data-dismiss="modal">Speed &amp; Explosion</a> <a class="leftnavitem" href="#msg-box8-e" data-dismiss="modal">Football Mental Training</a> <a class="leftnavitem" href="#msg-box8-n" data-dismiss="modal">Mobility</a>
-                    <!--                    <a class="leftnavitem" href="#msg-box8-g" data-dismiss="modal">Sports Science</a>--><a class="leftnavitem" href="#msg-box8-i" data-dismiss="modal">Nutrition</a> <a class="leftnavitem" href="#msg-box8-v" data-dismiss="modal">Keto/os</a> 
-                    <a class="leftnavitem" href="#header2-s" data-dismiss="modal">About</a>
-                    <a class="leftnavitem" href="http://www.coachjackfootball.com/testimonials">Testimonials</a>
+                    <!--                    <a class="leftnavitem" href="#msg-box8-g" data-dismiss="modal">Sports Science</a>--><a class="leftnavitem" href="#msg-box8-i" data-dismiss="modal">Nutrition</a> <a class="leftnavitem" href="#msg-box8-v" data-dismiss="modal">Keto/os</a> <a class="leftnavitem" href="#header2-s" data-dismiss="modal">About</a> <a class="leftnavitem" href="http://www.coachjackfootball.com/testimonials">Testimonials</a>
                     <!--                    <a class="leftnavitem">Blog</a>-->
                     <br>
                     <p class="separatormenu"></p> <a class="peakbutton_" style="color:rgb(61, 142, 185);" href="https://calendly.com/chase-peakperformance/gameplansession/" target="_blank">
@@ -69,53 +107,28 @@
         <!-- modal-dialog -->
     </div>
     <!-- modal -->
+    <section class="mbr-section mbr-section-hero mbr-section-full mbr-section-with-arrow mbr-parallax-background mbr-after-navbar" id="header1-7" data-rv-view="0"> <img class="ovvideo" src="http://www.coachjackfootball.com/assets/images/overlogo.png">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/cWpUW67bUA4?rel=0&amp;amp;showinfo=0&amp;autoplay=1&amp;loop=0"></iframe>
+    </section>
     <section class="mbr-section mbr-section-hero mbr-section-full mbr-section-with-arrow mbr-parallax-background mbr-after-navbar" id="header1-7" data-rv-view="0" style="background-image: url(assets/images/football-801047-960-960x640.png);">
-        <div class="mbr-overlay" style="opacity: 0.35; background-color: rgb(0, 0, 0);"></div>
+        <div class="mbr-overlay" style="opacity: 1.35; background-color: #f3f4f6"></div>
         <div class="mbr-table-cell">
             <div class="container-fluid">
                 <div class="row">
-                    <!--                    <div class="mbr-section col-md-10 col-md-offset-1 text-xs-center">-->
+                    <div class="col-md-3"></div>
                     <div class="col-md-6">
-                        <!--                        <h1 class="mbr-section-title display-1">Coach Jack Football</h1>-->
-                        <h1 class="mbr-section-title display-1"><img src="assets/images/overlogo.png" class="olog"></h1>
-                        <p class="mbr-section-lead lead" style="position:relative;top:20px;">Coaching Football Players All Over the World on How to Crush it On the Football Field. </p>
-                       
-                        
-                        <div class="col-md-6">
-                        <div class="mcwidget-embed" data-widget-id="469966" style="display:inline-block !important; width:100% !important;"></div>   
-                        </div>
-                            <div class="col-md-6">
-                            <span style="color:white;">If you have any
-Football Performance Questions then you can chat with Coach Jack here.</span>
-                            </div>
-                        
+                        <h1 style="text-align:center;color:#626262;">Stay Connected</h1>
+                        <p class="mbr-section-lead lead" style="position:relative;top:20px;color:rgb(61, 142, 185);">Coaching Football Players All Over the World on How to Crush it On the Football Field. </p> <span style="color:#3d8eb9;font-weight:bold;font-size:11pt;">If you have any
+                             Football Performance Questions then you can chat with Coach Jack here.</span>
+                        <br>
+                        <br>
+                        <div class="mcwidget-embed" data-widget-id="469966" style="display:inline-block !important; width:100% !important;"></div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="mbr-arrow mbr-arrow-floating" aria-hidden="true"><a href="#msg-box8-933"><i class="mbr-arrow-icon"></i></a></div>
     </section>
-    <section class="mbr-section article mbr-parallax-background" id="msg-box8-933" data-rv-view="3" style="background-image: url(assets/images/secsec.jpg); padding-top: 200px; padding-bottom: 200px;">
-        <div class="mbr-overlay" style="opacity: 1; background-color: rgb(255, 255, 255); color:#3d8eb9 !important;"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2 text-xs-center">
-                    <h3 class="mbr-section-title display-2" style="color:#3d8eb9;"> How would your performance on the football field change if you had your own...</h3>
-                    <br>
-                    <div class="lead">
-                        <h5 style="color:#3d8eb9;">Strength &amp; Conditioning Coach? 
-                            Mental Skills Coach? 
-                            Nutritionist? 
-                            Mobility Specialist? 
-                             
-                            You would get Really Good - Really Fast<br>
-                            <br>
-                            Coach Jack - Got Your Back<br></h5> </div>
-                </div>
-            </div>
-        </div>
-<!--        <div class="executionstrategy"> <a class="exetxt pull-right" data-toggle="modal" data-target="#speedstrat">Execution Strategy</a> </div>-->
-    </section>
+
     <section class="mbr-section article mbr-parallax-background" id="msg-box8-9" data-rv-view="3" style="background-image: url(assets/images/speedbg-1080x720.png); padding-top: 200px; padding-bottom: 200px;">
         <div class="mbr-overlay" style="opacity: 0.3; background-color: rgb(34, 34, 34);"> </div>
         <div class="container">
@@ -125,18 +138,15 @@ Football Performance Questions then you can chat with Coach Jack here.</span>
                     <div class="lead">
                         <p><em>"Speed creates space. It creates problems. It scares people."</em>
                             <br> &nbsp;&nbsp;-Luke Kuechly</p>
-                    </div><br><br>
-                          <iframe width="100%" height="415" src="https://www.youtube.com/embed/AIc9SnJIMYI" frameborder="0" allowfullscreen></iframe>
-<!--                    <div><a class="btn btn-primary" href="index.html#slider-c">Continue Reading</a> </div>-->
-                </div>
+                    </div>
+                    <br>
+                    <br>
+                    <iframe width="100%" height="415" src="https://www.youtube.com/embed/AIc9SnJIMYI" frameborder="0" allowfullscreen></iframe>
+                    <!--                    <div><a class="btn btn-primary" href="index.html#slider-c">Continue Reading</a> </div>--></div>
             </div>
         </div>
-        <div class="executionstrategy"> <a class="exetxt pull-right" data-toggle="modal" data-target="#speedstrat">Execution Strategy</a> 
-        
-            <a class="exetxt pull-right" style="margin-right:25px;" href="https://calendly.com/chase-peakperformance/gameplansession/" target="_blank">
-                    Schedule A Free 15 Minute Gameplan Session</a>
-        
-        </div>
+        <div class="executionstrategy"> <a class="exetxt pull-right" data-toggle="modal" data-target="#speedstrat">Execution Strategy</a> <a class="exetxt pull-right" style="margin-right:25px;" href="https://calendly.com/chase-peakperformance/gameplansession/" target="_blank">
+                    Schedule A Free 15 Minute Gameplan Session</a> </div>
     </section>
     <div class="modal zoomd fade mef" id="speedstrat" tabindex="-1" role="dialog">
         <div class="modal-dialog">
@@ -151,7 +161,7 @@ Football Performance Questions then you can chat with Coach Jack here.</span>
             </div>
         </div>
     </div>
-   <!-- <section class="mbr-section article mbr-parallax-background" id="slider-c" data-rv-view="111" style="background-image: url(assets/images/videobgbg.png); padding-top: 160px; padding-bottom: 160px;">
+    <!-- <section class="mbr-section article mbr-parallax-background" id="slider-c" data-rv-view="111" style="background-image: url(assets/images/videobgbg.png); padding-top: 160px; padding-bottom: 160px;">
         <div class="mbr-overlay" style="opacity: 0.9; background-color: rgb(255, 255, 255);"> </div>
         <div class="container">
             <div class="row">
@@ -162,23 +172,6 @@ Football Performance Questions then you can chat with Coach Jack here.</span>
             </div>
         </div>
     </section>-->
-    <section style="padding-top:200px;padding-bottom:200px; color:#333;font-size:22pt;">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-2"></div>
-                <div class="col-md-8" style="color:rgb(61, 142, 185);"> &quot;Coach Jack is an unreal guy that has helped me immensely going into this season. When it comes to football, Coach Jack can help you with anything that you need.&quot;
-                    <br><em>-Kevin Davidson</em>
-                    <br> Princeton Quarterback.
-                    <br>
-                    <br>
-                    <p class="separator3"></p>
-                    <br> <span style="color:#333;">
-                &quot;Hey my name's Marco Carrillo and I play for the Clint Lions and I improved a lot on my speed because of Coach Jack's Speed Program and I can get to the quarterback faster and easier and I really liked the workouts.&quot; 
-                    </span> </div>
-                <div class="col-md-2"></div>
-            </div>
-        </div>
-    </section>
     <!--
     <section class="mbr-slider mbr-section mbr-section__container carousel slide mbr-section-nopadding" data-ride="carousel" data-keyboard="false" data-wrap="true" data-pause="false" data-interval="false" id="slider-c" data-rv-view="6">
         <div>
@@ -270,10 +263,6 @@ Football Performance Questions then you can chat with Coach Jack here.</span>
     </div>
 
 </section> -->
-    
-    
-    
-    
     <!--- Mental Training 
     <section class="mbr-section article mbr-parallax-background" id="msg-box8-e" data-rv-view="24" style="background-image: url(assets/images/mntl1-960x640.png); padding-top: 200px; padding-bottom: 200px;">
         <div class="mbr-overlay" style="opacity: 0.5; background-color: rgb(0, 0, 0);"> </div>
@@ -361,8 +350,6 @@ Train your body.</span></p>
             <br>
             <br> </center>
     </section>  Mental training end -->
-    
-    
     <!-- Mobility
     <section class="mbr-section article mbr-parallax-background" id="msg-box8-n" data-rv-view="43" style="background-image: url(assets/images/mobility-1080x720.png); padding-top: 200px; padding-bottom: 200px;">
         <div class="mbr-overlay" style="opacity: 0.5; background-color: rgb(34, 34, 34);"> </div>
@@ -404,7 +391,7 @@ Train your body.</span></p>
             </div>
         </div>
     </div>
-   <!-- <section class="mbr-section article mbr-parallax-background" id="msg-box3-14" data-rv-view="111" style="background-image: url(assets/images/videobgbg.png); padding-top: 10px; padding-bottom: 10px;">
+    <!-- <section class="mbr-section article mbr-parallax-background" id="msg-box3-14" data-rv-view="111" style="background-image: url(assets/images/videobgbg.png); padding-top: 10px; padding-bottom: 10px;">
         <div class="mbr-overlay" style="opacity: 1; background-color: rgb(255, 255, 255);"> </div>
         <div class="container">
             <div class="row">
@@ -415,7 +402,7 @@ Train your body.</span></p>
             </div>
         </div>
     </section>-->
-   <!-- <section class="mbr-section mbr-section-hero mbr-section-full header2 mbr-parallax-background" id="content1-p" data-rv-view="89" style="background-image: url(assets/images/34345345.png);">
+    <!-- <section class="mbr-section mbr-section-hero mbr-section-full header2 mbr-parallax-background" id="content1-p" data-rv-view="89" style="background-image: url(assets/images/34345345.png);">
         <div class="mbr-overlay" style="opacity: 0.6; background-color: rgb(0, 0, 0);"> </div>
         <div class="mbr-overlay" style="opacity: 1; background-color: #f3f3f3;"> </div>
         <div class="mbr-table mbr-table-full">
@@ -447,8 +434,6 @@ Train your body.</span></p>
             </div>
         </div>
     </section> -->
-    
-
     <!--
     <section class="mbr-section article mbr-parallax-background" id="msg-box8-g" data-rv-view="30" style="background-image: url(assets/images/science-1080x720.png); padding-top: 200px; padding-bottom: 200px;">
         <div class="mbr-overlay" style="opacity: 0; background-color: rgb(34, 34, 34);"> </div>
@@ -563,7 +548,6 @@ Train your body.</span></p>
             </div>
         </div>
     </section>
-    
     <!-- Keto
     <section class="mbr-section article mbr-parallax-background" id="msg-box8-v" data-rv-view="100" style="background-image: url(assets/images/keto.png); padding-top: 200px; padding-bottom: 200px;">
         <div class="mbr-overlay" style="opacity: 0.3; background-color: rgb(34, 34, 34);"> </div>
@@ -609,6 +593,27 @@ Train your body.</span></p>
             </div>
         </div>
     </section> Keto end -->
+        <section class="mbr-section article mbr-parallax-background" id="msg-box8-933" data-rv-view="3" style="background-image: url(assets/images/secsec.jpg); padding-top: 200px; padding-bottom: 200px;">
+        <div class="mbr-overlay" style="opacity: 1; background-color: rgb(255, 255, 255); color:#3d8eb9 !important;"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 text-xs-center">
+                    <h3 class="mbr-section-title display-2" style="color:#3d8eb9;"> How would your performance on the football field change if you had your own...</h3>
+                    <br>
+                    <div class="lead">
+                        <h5 style="color:#3d8eb9;">Strength &amp; Conditioning Coach? 
+                            Mental Skills Coach? 
+                            Nutritionist? 
+                            Mobility Specialist? 
+                             
+                            You would get Really Good - Really Fast<br>
+                            <br>
+                            Coach Jack - Got Your Back<br></h5> </div>
+                </div>
+            </div>
+        </div>
+        <!--        <div class="executionstrategy"> <a class="exetxt pull-right" data-toggle="modal" data-target="#speedstrat">Execution Strategy</a> </div>-->
+    </section>
     <section class="mbr-section mbr-section-hero mbr-section-full header2 mbr-parallax-background" id="header2-s" data-rv-view="48" style="background-image: url(assets/images/aboutbg.png);">
         <div class="mbr-overlay" style="opacity: 1; background-color: rgb(255, 255, 255); background-color:#f3f4f4;"> </div>
         <div class="mbr-table mbr-table-full">
@@ -617,8 +622,7 @@ Train your body.</span></p>
                     <div class="mbr-section row">
                         <div class="mbr-table-md-up">
                             <div class="mbr-table-cell mbr-right-padding-md-up mbr-valign-top col-md-7 image-size" style="width: 50%;">
-                                <div class="mbr-figure"><img src="assets/images/about2.JPG">
-                                </div>
+                                <div class="mbr-figure"><img src="assets/images/about2.JPG"> </div>
                             </div>
                             <div class="mbr-table-cell col-md-5 text-xs-center text-md-left content-size">
                                 <h3 class="mbr-section-title display-2" style="color:#333 !important;">About Chase</h3>
@@ -633,15 +637,17 @@ Train your body.</span></p>
                                 </div>
                             </div>
                         </div>
-                                     <div class="row">
-                        <div class="col-md-3"></div>
-                        <div class="col-md-6">
-                            <br><br>        
-                                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/IZkf2yhq84o" frameborder="0" allowfullscreen></iframe>
-                            <br> <div class="mcwidget-embed" data-widget-id="469966"></div>
+                        <div class="row">
+                            <div class="col-md-3"></div>
+                            <div class="col-md-6">
+                                <br>
+                                <br>
+                                <iframe width="100%" height="315" src="https://www.youtube.com/embed/IZkf2yhq84o" frameborder="0" allowfullscreen></iframe>
+                                <br>
+                                <div class="mcwidget-embed" data-widget-id="469966"></div>
+                            </div>
+                            <div class="col-md-3"></div>
                         </div>
-                        <div class="col-md-3"></div>
-                    </div>
                     </div>
                 </div>
             </div>
@@ -738,37 +744,52 @@ Train your body.</span></p>
                         <iframe src="https://player.vimeo.com/video/229731125" width="100%" height="720" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                     </div>
                     <div class="dol-md-6">
-                        
-                    <video width="400" controls>
-  <source src="videos/52567627423__6A854A5D-E407-4F59-8264-A2D5CC8D94FD.MOV" type="video/mp4" height="720">
-  Your browser does not support HTML5 video.
-</video>
-
+                        <video width="400" controls>
+                            <source src="videos/52567627423__6A854A5D-E407-4F59-8264-A2D5CC8D94FD.MOV" type="video/mp4" height="720"> Your browser does not support HTML5 video. </video>
                     </div>
-                </div><br><br>
+                </div>
+                <br>
+                <br>
                 <div class="row">
-                <div class="col-md-4">
-                    <div class="sumbox boxone"> “Chase’s mobility program was the missing piece I needed to make the 53-man Roster, thanks Chase.”
-                        <br>
-                        <br> <em class="pull-right">Robert W. </em>
-                        <br> </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="sumbox boxtwo"> I’ve always stretched but the 30 Day Football Player Mobility Challenge changed my entire perspective on mobility. This challenge was life-changing.”
-                        <br>
-                        <br><em class="pull-right">Warren O.</em>
-                        <br> </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="sumbox"> “Chase’s program helped me earn a six figure contract with a team in Europe. Thanks, Chase.”
-                        <br>
-                        <br> <em class="pull-right">Aaron S.</em>
-                        <br> </div>
-                </div>
+                    <div class="col-md-4">
+                        <div class="sumbox boxone"> “Chase’s mobility program was the missing piece I needed to make the 53-man Roster, thanks Chase.”
+                            <br>
+                            <br> <em class="pull-right">Robert W. </em>
+                            <br> </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="sumbox boxtwo"> I’ve always stretched but the 30 Day Football Player Mobility Challenge changed my entire perspective on mobility. This challenge was life-changing.”
+                            <br>
+                            <br><em class="pull-right">Warren O.</em>
+                            <br> </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="sumbox"> “Chase’s program helped me earn a six figure contract with a team in Europe. Thanks, Chase.”
+                            <br>
+                            <br> <em class="pull-right">Aaron S.</em>
+                            <br> </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    <section style="padding-top:200px;padding-bottom:200px; color:#333;font-size:22pt;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-8" style="color:rgb(61, 142, 185);"> &quot;Coach Jack is an unreal guy that has helped me immensely going into this season. When it comes to football, Coach Jack can help you with anything that you need.&quot;
+                    <br><em>-Kevin Davidson</em>
+                    <br> Princeton Quarterback.
+                    <br>
+                    <br>
+                    <p class="separator3"></p>
+                    <br> <span style="color:#333;">
+                &quot;Hey my name's Marco Carrillo and I play for the Clint Lions and I improved a lot on my speed because of Coach Jack's Speed Program and I can get to the quarterback faster and easier and I really liked the workouts.&quot; 
+                    </span> </div>
+                <div class="col-md-2"></div>
+            </div>
+        </div>
+    </section>
     <br>
     <div class="row">
         <div class="col-md-3"></div>
@@ -851,7 +872,6 @@ Train your body.</span></p>
             }
         });
     </script>
-
 </body>
 
 </html>
