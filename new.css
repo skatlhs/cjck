@@ -369,7 +369,8 @@ img.ovvideo {
   left:0;
   bottom:0;
   right:0;
-  background:url(assets/images/logowhite.png) no-repeat center 105px, #018FD7;
+  background:url(assets/images/logowhite2.png) no-repeat center 105px, #018FD7;
+
   transition: 1s 0.4s;
 }
 #progress{
