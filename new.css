@@ -276,6 +276,7 @@ a.leftnavitem:hover {
 
 .mailoverlay {
     background: linear-gradient(#18a7ff, rgba(58, 255, 134, 0.72));
+    background: #018FD7;
 }
 
 .leade input {
@@ -389,4 +390,20 @@ img.ovvideo {
   width:100%;
   text-align:center;
   color:#fff;
+}
+
+.minutebutton {
+   padding:20px 20px;
+    background:#018FD7;
+    position:relative;
+    top:-20px;
+    cursor:pointer;
+}
+
+.minutebutton:hover {
+    text-decoration:none;
+}
+
+.minutebutton:active {
+    background:#0070a8;
 }
