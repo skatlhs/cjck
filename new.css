@@ -454,3 +454,34 @@ img.ovvideo {
 .minutebutton:active {
     background:#0070a8;
 }
+
+
+.iwrap {
+    width:100%;
+    overflow: hidden;
+    transition:all .3s ease;
+}
+
+.iwrap img {
+    width:100%;
+     height:290px !important;
+     transition: all .3s ease;
+    transform: scale(1);
+}
+
+.iwrap img:hover {
+    transition: all .3s ease;
+    transform: scale(1.2);
+    opacity:0.8;
+}
+
+.modal, .fade {
+    background:rgba(0, 0, 0, 0.74);
+    width:100%;
+    height:100%;
+    overflow:hidden !important;
+}
+
+.modal-content {
+    background:transparent;
+}
