@@ -487,3 +487,35 @@ img.ovvideo {
 .modal-content {
     background: transparent;
 }
+
+.btnpurp {
+    background: #743979;
+    color: white;
+    font-weight: bold;
+    font-size: 16pt;
+    border-radius: 4px;
+    position: relative;
+    top: 200px;
+}
+
+.btnpurptwo {
+    background: #743979;
+    color: white;
+    font-size: 10pt;
+    font-weight: bold;
+    border-radius: 4px;
+    position: relative;
+    /*    top:200px;*/
+}
+
+.btnpurptwo:hover,
+.btnpurp:hover {
+    color: white;
+    background: #8a4790;
+}
+
+.btnpurptwo:active,
+.btnpurp:active {
+    color: white;
+    background: #743979;
+}
