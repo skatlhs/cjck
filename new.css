@@ -489,21 +489,18 @@ img.ovvideo {
 }
 
 .btnpurp {
-    background: #743979;
     color: white;
     font-weight: bold;
     font-size: 16pt;
-    border-radius: 4px;
     position: relative;
     top: 200px;
 }
 
 .btnpurptwo {
-    background: #743979;
+    
     color: white;
     font-size: 10pt;
     font-weight: bold;
-    border-radius: 4px;
     position: relative;
     /*    top:200px;*/
 }
@@ -511,11 +508,37 @@ img.ovvideo {
 .btnpurptwo:hover,
 .btnpurp:hover {
     color: white;
-    background: #8a4790;
 }
 
 .btnpurptwo:active,
 .btnpurp:active {
     color: white;
-    background: #743979;
+}
+.btn, .btn-primary {
+    border-radius:5px;
+}
+
+.testbox {
+/*    border:2px solid #e5e5e5;*/
+    border-radius:4px;
+    padding:20px;
+    background:white;
+    color:#000000;
+    font-weight:bold;
+    font-size:22pt;
+    -webkit-box-shadow: 0px 9px 40px -2px rgba(207,207,207,1);
+-moz-box-shadow: 0px 9px 40px -2px rgba(207,207,207,1);
+box-shadow: 0px 9px 40px -2px rgba(207,207,207,1);
+}
+
+.testimg {
+    width:95px;
+    height:95px;
+    border-radius: 100%;
+    border:2px solid rgba(1, 143, 215, 0.17);
+}
+
+.testname {
+    font-size:14pt;
+    margin-left:10px;
 }
